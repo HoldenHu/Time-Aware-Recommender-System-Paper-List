@@ -48,7 +48,7 @@ Please follow [this link](./README.md) to view papers by topics.
 
 10. **Denoising Time Cycle Modeling for Recommendation.** SIGIR 2022 
 
-    【short paper，去噪时间循环建模】
+   【short paper，去噪时间循环建模】
 
 11. **A Dynamic Meta-Learning Model for Time-Sensitive Cold-Start Recommendations.** AAAI 2022 
 
@@ -144,9 +144,9 @@ Please follow [this link](./README.md) to view papers by topics.
 
 10. **ST-PIL: Spatial-Temporal Periodic Interest Learning for Next Point-of-Interest Recommendation.** CIKM 2021. [paper](https://arxiv.org/pdf/2104.02262.pdf)
 
-    【short paper，用于POI推荐的时空周期兴趣学习】`POI`
+   【short paper，用于POI推荐的时空周期兴趣学习】`POI`
 
-    *Qiang Cui, Chenrui Zhang, Yafeng Zhang, Jinpeng Wang, Mingchen Cai*
+   *Qiang Cui, Chenrui Zhang, Yafeng Zhang, Jinpeng Wang, Mingchen Cai*
 
 11. **Global-Local Item Embedding for Temporal Set Prediction.** RecSys 2021
 
@@ -188,7 +188,9 @@ Please follow [this link](./README.md) to view papers by topics.
 
    `Temporal Interaction Graph`, 
 
-8. **Time Interval Aware Self-Attention for Sequential Recommendation.** WSDM, 2020
+8. **Time Interval Aware Self-Attention for Sequential Recommendation.** WSDM, 2020. [paper](https://cseweb.ucsd.edu/~jmcauley/pdfs/wsdm20b.pdf)
+
+   *Jiacheng Li, Yujie Wang, Julian McAuley*
 
 9. **Hybrid Sequential Recommender via Time-aware Attentive Memory Network.** CIKM, 2020
 
@@ -196,11 +198,15 @@ Please follow [this link](./README.md) to view papers by topics.
 
 11. **Temporal Graph Neural Networks for Social Recommendation.** ICBD, 2020. [paper](https://ieeexplore.ieee.org/document/9378444/)
 
-12. **STGCN - A Spatial-Temporal Aware Graph Learning Method for POI Recommendation.** ICDM, 2020. [paper](https://ieeexplore.ieee.org/document/9338281) [code](https://github.com/yingtaoluo/STGCN-POI-Recommendation)
+12. **Mining frequent seasonal gradual patterns.** DaWaK, 2020. [paper]()
+
+    *Jerry Lonlac, Arnaud Doniec, Marin Lujak, Stephane Lecoeuche*
+
+13. **STGCN - A Spatial-Temporal Aware Graph Learning Method for POI Recommendation.** ICDM, 2020. [paper](https://ieeexplore.ieee.org/document/9338281) [code](https://github.com/yingtaoluo/STGCN-POI-Recommendation)
 
     `POI`
 
-13. **Peia: Personality and emotion integrated attentive model for music recommendation on social media platforms.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5352)
+14. **Peia: Personality and emotion integrated attentive model for music recommendation on social media platforms.** AAAI, 2020. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/5352)
 
     [attentive deep models]
 
@@ -208,31 +214,48 @@ Please follow [this link](./README.md) to view papers by topics.
 
 ## [2019](#2019)
 
-1. **Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction.** KDD, 2019
+1. **RepeatNet: A Repeat Aware Neural Recommendation Machine**
+   **for Session-based Recommendation.** AAAI, 2019. [paper](https://arxiv.org/pdf/1812.02646.pdf)
+
+   *Pengjie Ren, Zhumin Chen, Jing Li, Zhaochun Ren, Jun Ma, Maarten de Rijk*
+
+2. **Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction.** KDD, 2019
 
    *Wentao et al*
 
-2. **Hierarchical temporal convolutional networks for dynamic recommender systems.** WWW, 2019
+3. **Hierarchical temporal convolutional networks for dynamic recommender systems.** WWW, 2019
 
    `CNN-based`
 
-3. **Recurrent Recommendation with Local Coherence.** WSDM, 2019.
+4. **Recurrent Recommendation with Local Coherence.** WSDM, 2019.
 
-4. **Time is of the Essence: a Joint Hierarchical RNN and Point Process Model for Time and Item Predictions.** WSDM, 2019. paper [code](https://github.com/BjornarVass/Recsys)
+5. **Time is of the Essence: a Joint Hierarchical RNN and Point Process Model for Time and Item Predictions.** WSDM, 2019. paper [code](https://github.com/BjornarVass/Recsys)
 
-5. **Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks.** KDD, 2019.
+6. **Predicting Dynamic Embedding Trajectory in Temporal Interaction Networks.** KDD, 2019.
 
    `RNN-based`
 
-6. **TiSSA - A Time Slice Self-Attention Approach for Modeling Sequential User Behaviors.** WWW, 2019.
+7. **TiSSA - A Time Slice Self-Attention Approach for Modeling Sequential User Behaviors.** WWW, 2019.
 
    *Chenyi Lei, Shouling Ji, Zhao Li*
 
-7. **Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction.** KDD 2019. [paper](https://arxiv.org/pdf/1906.03776.pdf)
+8. **Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction.** KDD 2019. [paper](https://arxiv.org/pdf/1906.03776.pdf)
 
    `CTR`
 
    *Wentao Ouyang, Xiuwu Zhang, Li Li, Heng Zou, Xin Xing, Zhaojie Liu, Yanlong Du*
+
+9. **Sequence and time aware neighborhood for session-based recommendations: Stan.** SIGIR, 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3331184.3331322)
+
+   *Diksha Garg, Priyanka Gupta, Pankaj Malhotra, Lovekesh Vig, Gautam Shroff*
+
+10. **A recommender system for heterogeneous and time sensitive environment.** RecSys, 2019. [paper](https://www.researchgate.net/profile/Qilian-Yu/publication/335768631_A_recommender_system_for_heterogeneous_and_time_sensitive_environment/links/61004e2c1e95fe241a917b76/A-recommender-system-for-heterogeneous-and-time-sensitive-environment.pdf)
+
+   *Meng Wu, Ying Zhu, Qilian Yu, Bhargav Rajendra, Yunqi Zhao, Navid Aghdaie, and Kazi A. Zaman*
+
+11. **Ctrec: a longshort demands evolution model for continuous-time recommendation.** SIGIR, 2019. [paper](https://tbbaby.github.io/pub/sigir19.pdf)
+
+    *Ting Bai, Lixin Zou, Wayne Xin Zhao, Pan DuWeidong Liu, Jian-Yun Nie, Ji-Rong Wen*
 
 ## [2016-2018](#2016-2018)
 
@@ -259,27 +282,56 @@ Please follow [this link](./README.md) to view papers by topics.
 
    *Veronika Bogina, Tsvi Kuflik, Osnat Mokryn*
 
+8. **Discovering temporal purchase patterns with different responses to promotions.** CIKM, 2016. [paper](https://shlomo-berkovsky.github.io/files/pdf/CIKM2016.pdf)
+
+   *Ling Luo, Bin Li, Irena Koprinska, Shlomo Berkovsky, Fang Chen*
+
+9. **The Intricacies of Time in News Recommendation.** UMAP, 2016. [paper](http://ceur-ws.org/Vol-1618/INRA_paper4.pdf)
+
+   *Jon Atle Gulla, Arne Dag Fidjestøl, Jon Espen Ingvaldsen, Cristina Marco,  Xiaomeng Su, Özlem Özgöbek*
+
+10. **The contextual turn: from context-aware to context-driven**
+   **recommender systems.** RecSys, 2016. [paper](https://www.researchgate.net/profile/Paolo-Cremonesi-2/publication/307573378_The_Contextual_Turn_from_Context-Aware_to_Context-Driven_Recommender_Systems/links/6069f29a299bf1252e2ba0e4/The-Contextual-Turn-from-Context-Aware-to-Context-Driven-Recommender-Systems.pdf)
+
+   *Roberto Pagano, Martha Larson, Balázs Hidasi, Alexandros Karatzoglou*
+
+11. **Modeling user consumption sequences.** WWW, 2016. [paper](https://cseweb.ucsd.edu//classes/fa17/cse291-b/reading/sequences-www2016.pdf)
+
+    *Austin R. Benson, Ravi Kumar, Andrew Tomkins*
+
 ## Before [2015](#2015)
 
-1. **Collaborative filtering with temporal dynamics.** COMMUN ACM, 2010.
+1. **Context of Seasonality in Web Search.** ECIR, 2014. [paper](http://www2.fiit.stuba.sk/~bielik/publ/abstracts/2014/kramar-ecir2014.pdf)
+
+   *Tomáš Kramá, Mária Bieliková*
+
+2. **Collaborative filtering with temporal dynamics.** COMMUN ACM, 2010.
 
    *Koren et al.* 
 
-2. **Exploring temporal effects for location recommendation on location-based social networks.** RecSys, 2013
+3. **Temporal collaborative filtering with bayesian probabilistic tensor factorization.** SIAM, 2010. [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972801.19)
 
-3. **Temporal recommendation on graphs via long-and short-term preference fusion.** KDD, 2010
+   *Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff Schneider, Jaime G. Carbonell*
+
+4. **Exploring temporal effects for location recommendation on location-based social networks.** RecSys, 2013
+
+5. **Temporal recommendation on graphs via long-and short-term preference fusion.** KDD, 2010
 
    `Temporal Interaction Graph`, 
 
-4. **Time Weight Collaborative Filtering.** CIKM, 2005. [paper](https://dl.acm.org/doi/pdf/10.1145/1099554.1099689)
+6. **Models of user engagement.** UMAP, 2012. [paper](https://www.researchgate.net/profile/Mounia-Lalmas/publication/233852009_Model_of_User_Engagement/links/0912f50c1c334284cd000000/Model-of-User-Engagement.pdf)
+
+   *Janette Lehmann, Mounia Lalmas, Elad Yom-Tov, Georges Dupret*
+
+7. **Time Weight Collaborative Filtering.** CIKM, 2005. [paper](https://dl.acm.org/doi/pdf/10.1145/1099554.1099689)
 
    *Yi Ding, Xue Li* 
 
-5. **Personalized News Recommendation with Context Trees.** RecSys, 2013. [paper](https://arxiv.org/pdf/1303.0665.pdf)
+8. **Personalized News Recommendation with Context Trees.** RecSys, 2013. [paper](https://arxiv.org/pdf/1303.0665.pdf)
 
    *Florent Garcin, Christos Dimitrakakis, Boi Faltings*
 
-6. **Collaborative Filtering with Temporal Dynamics.** KDD, 2009. [paper](https://cseweb.ucsd.edu//classes/fa17/cse291-b/reading/p447-koren.pdf)
+9. **Collaborative Filtering with Temporal Dynamics.** KDD, 2009. [paper](https://cseweb.ucsd.edu//classes/fa17/cse291-b/reading/p447-koren.pdf)
 
    *Yehuda Koren*
 

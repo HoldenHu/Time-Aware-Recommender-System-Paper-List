@@ -8,6 +8,7 @@ Please follow [this link](./README_by_year.md) to view papers in chronological o
 
 ## [Content](#content)
 
+```php+HTML
 <table>
 <tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
 <tr><td colspan="2"><a href="#models">2. Models</a></td></tr>
@@ -55,13 +56,14 @@ Please follow [this link](./README_by_year.md) to view papers in chronological o
 </tr>
 <tr>
     <td>&emsp;<a href="#periodical">3.3 Recency</a></td>
-    <td>&ensp;<a href="#frequency">3.4 Recurrence</a></td>
+    <td>&ensp;<a href="#frequency">3.4 Time-Point Sensitivity</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#periodical">3.5 Temporal Specification</a></td>
+        <td>&emsp;<a href="#periodical">3.5 Temporal Features</a></td>
 </tr>
 <tr><td colspan="2"><a href="#resources">4. Resources</a></td></tr>
 </table>
+```
 
 
 
@@ -89,11 +91,19 @@ Basic models including two-tower models, and classical machine learning approach
 
    *Yi Ding, Xue Li*
 
+2. **Temporal collaborative filtering with bayesian probabilistic tensor factorization.** SIAM, 2010. [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972801.19)
+
+   *Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff Schneider, Jaime G. Carbonell*
+
+   ​
+
 ### [CNN-based Models](#cnn-models)
 
 
 
 ### [RNN-based Models](#rnn-models)
+
+
 
 
 
@@ -123,33 +133,113 @@ Basic models including two-tower models, and classical machine learning approach
 
    *Dietmar Jannach, Malte Ludewig & Lukas Lerche*
 
+
+
 ### [Temporal Periodicality](temporal-periodicality)
+
+这里面包括repetely consumption，which关注于用户重复地做某项事情，buy the same things repeatedly
+
+区别于temporal frequency，这里指的是关注于有规律的重复， people have regular habits， 比如we eat at the same restaurants regularly
 
 1. **Itinerary recommender system with semantic trajectory pattern mining from geo-tagged photos.** Expert Syst. Appl., 2017. [paper](https://www.sciencedirect.com/science/article/pii/S0957417417307315)
 
    *Guochen Cai, Kyungmi Lee, Ickjai Lee*
 
+2. **News session-based recommendations using deep neural networks.** DLRS, 2018. [paper](https://arxiv.org/pdf/1808.00076.pdf)
+
+   *Gabriel de Souza Pereira, Felipe Ferreira, Adilson Marques da Cunha*
+
+3. **The Intricacies of Time in News Recommendation.** UMAP, 2016. [paper](http://ceur-ws.org/Vol-1618/INRA_paper4.pdf)
+
+   *Jon Atle Gulla, Arne Dag Fidjestøl, Jon Espen Ingvaldsen, Cristina Marco,  Xiaomeng Su, Özlem Özgöbek*
+
+4. **Ctrec: a longshort demands evolution model for continuous-time recommendation.** SIGIR, 2019. [paper](https://tbbaby.github.io/pub/sigir19.pdf)
+
+   *Ting Bai, Lixin Zou, Wayne Xin Zhao, Pan DuWeidong Liu, Jian-Yun Nie, Ji-Rong Wen*
+
+5. **Modeling user consumption sequences.** WWW, 2016. [paper](https://cseweb.ucsd.edu//classes/fa17/cse291-b/reading/sequences-www2016.pdf)
+
+   *Austin R. Benson, Ravi Kumar, Andrew Tomkins*
+
+6. **RepeatNet: A Repeat Aware Neural Recommendation Machine**
+   **for Session-based Recommendation.** AAAI, 2019. [paper](https://arxiv.org/pdf/1812.02646.pdf)
+
+   *Pengjie Ren, Zhumin Chen, Jing Li, Zhaochun Ren, Jun Ma, Maarten de Rijk*
+
 ### [Temporal Recency](temporal-recency)
 
+The recency of tags has a positive effect on their recurrence probability. (To Replace)
 
+1. **Models of user engagement.** UMAP, 2012. [paper](https://www.researchgate.net/profile/Mounia-Lalmas/publication/233852009_Model_of_User_Engagement/links/0912f50c1c334284cd000000/Model-of-User-Engagement.pdf)
 
+   *Janette Lehmann, Mounia Lalmas, Elad Yom-Tov, Georges Dupret*
 
+2. **Sequence and time aware neighborhood for session-based recommendations: Stan.** SIGIR, 2019. [paper](https://dl.acm.org/doi/abs/10.1145/3331184.3331322)
 
-new trends (Lommatzsch et al., 2017; Jannach et al., 2017), freshness/recency (Chu and Park, 2009; Garcin et al., 2013; Kille and Albayrak, 2017; Jannach et al., 2015; Gulla et al., 2016; Wang et al., 2016; Chakraborty et al., 2017; Kowald et al., 2017), seasonality (Xiong et al., 2010; Rokicki et al., 2017) and promotions (Luo et al., 2016).
+   *Diksha Garg, Priyanka Gupta, Pankaj Malhotra, Lovekesh Vig, Gautam Shroff*
 
+3. **Time Interval Aware Self-Attention for Sequential Recommendation.** WSDM, 2020. [paper](https://cseweb.ucsd.edu/~jmcauley/pdfs/wsdm20b.pdf)
 
+   *Jiacheng Li, Yujie Wang, Julian McAuley*
 
+4. **On the Decaying Utility of News Recommendation Models.** RecTemp@ RecSys, 2017. [paper](http://ceur-ws.org/Vol-1922/paper2.pdf)
 
+   *Benjamin Kille, Sahin Albayrak*
 
+   ​
 
+### [Time-Point Sensitivity]()
 
+A specific time point making the difference to user selection, such as purchasing festaval, promptions, Olympics, when a new item is released, or when an item is available at a specific point.
 
+1. **A recommender system for heterogeneous and time sensitive environment.** RecSys, 2019. [paper](https://www.researchgate.net/profile/Qilian-Yu/publication/335768631_A_recommender_system_for_heterogeneous_and_time_sensitive_environment/links/61004e2c1e95fe241a917b76/A-recommender-system-for-heterogeneous-and-time-sensitive-environment.pdf)
 
+   *Meng Wu, Ying Zhu, Qilian Yu, Bhargav Rajendra, Yunqi Zhao, Navid Aghdaie, and Kazi A. Zaman*
 
+2. **Discovering temporal purchase patterns with different responses to promotions.** CIKM, 2016. [paper](https://shlomo-berkovsky.github.io/files/pdf/CIKM2016.pdf)
 
+   *Ling Luo, Bin Li, Irena Koprinska, Shlomo Berkovsky, Fang Chen*
 
+3. **Visualizing program genres’ temporal-based similarity in linear TV recommendations.** AVI, 2020. [paper](https://shlomo-berkovsky.github.io/files/pdf/AVI20.pdf)
 
+   *Veronika Bogina, Julia Sheidin, Tsvi Kuflik, Shlomo Berkovsky*
 
+   ​
+
+### [Temporal Features]()
+
+Time transformed features, such as weeks, seasons, years.
+
+1. **Enhanced product recommendations based on seasonality and demography in ecommerce.** ICACCCN, 2020. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9362760&casa_token=hptCc-6gInoAAAAA:SuYYC62Fg0zbWwRfAtvcnzW0APdVH5eoSdGdc9Qz8zH3fsDgh4N8qPwSWzGcKLC3YyMr7VPzlDo2kdM&tag=1)
+
+   *Keerthika K, Saravanan T*
+
+2. **Context of Seasonality in Web Search.** ECIR, 2014. [paper](http://www2.fiit.stuba.sk/~bielik/publ/abstracts/2014/kramar-ecir2014.pdf)
+
+   *Tomáš Kramá, Mária Bieliková*
+
+3. **Temporal collaborative filtering with bayesian probabilistic tensor factorization.** SIAM, 2010. [paper](https://epubs.siam.org/doi/pdf/10.1137/1.9781611972801.19)
+
+   *Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff Schneider, Jaime G. Carbonell*
+
+4. **Seasonality-adjusted conceptualrelevancy-aware recommender system in online groceries.** BigData, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9005954&casa_token=QXEkiLaxUb4AAAAA:aC50szY2rYcRv8b4HATNJ5ZQ6U9V3SRkgN0q9IPWwVJmM1IW-_Tcv3LqEsmcr6B4l1eqtFXyjkLkOT8)
+
+   *Luyi Ma, Jason H.D. Cho, Sushant Kumar, Kannan Achan*
+
+5. **Mining frequent seasonal gradual patterns.** DaWaK, 2020. [paper]()
+
+   *Jerry Lonlac, Arnaud Doniec, Marin Lujak, Stephane Lecoeuche*
+
+6. **The contextual turn: from context-aware to context-driven**
+   **recommender systems.** RecSys, 2016. [paper](https://www.researchgate.net/profile/Paolo-Cremonesi-2/publication/307573378_The_Contextual_Turn_from_Context-Aware_to_Context-Driven_Recommender_Systems/links/6069f29a299bf1252e2ba0e4/The-Contextual-Turn-from-Context-Aware-to-Context-Driven-Recommender-Systems.pdf)
+
+   *Roberto Pagano, Martha Larson, Balázs Hidasi, Alexandros Karatzoglou*
+
+7. **Investigating and predicting online food recipe upload behavior.** IPM, 2019. [paper](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2626280/IPM2019Food.pdf?sequence=2)
+
+   *Christoph Trattnerb, Tomasz Kusmierczyka, Kjetil Nørvåga*
+
+   ​
 
 ## [Resources](#Resources)
 
