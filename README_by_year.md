@@ -10,17 +10,15 @@ Please follow [this link](./README.md) to view papers by topics.
 
 1. **Time Lag Aware Sequential Recommendation.** CIKM 2022. [paper](https://arxiv.org/abs/2208.04760)
 
-   【延时感知序列推荐】
-
    *Lihua Chen, Ning Yang, Philip S Yu*
 
-2. **RESETBERT4Rec: A Pre-training Model Integrating Time And User Historical Behavior for Sequential Recommendation.** SIGIR 2022 
+2. **RESETBERT4Rec: A Pre-training Model Integrating Time And User Historical Behavior for Sequential Recommendation.** SIGIR 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3477495.3532054)
 
-   【short paper，融合时间和用户历史行为的预训练模型】
+   *Qihang Zhao*
 
-3. **Learn from Past, Evolve for Future: Search-based Time-aware Recommendation with Sequential Behavior Data.** WWW 2022 
+3. **Learn from Past, Evolve for Future: Search-based Time-aware Recommendation with Sequential Behavior Data.** WWW 2022. [paper](https://arxiv.org/pdf/2202.03097.pdf)
 
-   【检索相关历史行为并融合当前序列行为】
+   *Jiarui Jin, Xianyu Chen, Weinan Zhang, Junjie Huang, Ziming Feng, Yong Yu*
 
 4. **Spatiotemporal-aware Session-based Recommendation with Graph Neural Networks.** CIKM 2022 
 
@@ -211,6 +209,14 @@ Please follow [this link](./README.md) to view papers by topics.
     [attentive deep models]
 
     *Tiancheng Shen, Jia Jia, Yan Li, Yihui Ma, Yaohua Bu, Hanjie Wang, Bo Chen, Tat-Seng Chua, Wendy Hall*
+
+15. **Recency Aware Collaborative Filtering for Next Basket Recommendation.** UMAP, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3340631.3394850)
+
+    *Guglielmo Faggioli, Mirko Polato, Fabio Aioll*
+
+16. **Modeling Personalized Item Frequency Information for Next-basket Recommendation.** SIGIR, 2020. [paper](https://arxiv.org/pdf/2006.00556.pdf)
+
+    *Haoji Hu, Xiangnan He, Jinyang Gao, Zhi-Li Zhang*
 
 ## [2019](#2019)
 

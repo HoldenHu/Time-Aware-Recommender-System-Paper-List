@@ -12,7 +12,6 @@ Please follow [this link](./README_by_year.md) to view papers in chronological o
 <tr><td colspan="2"><a href="#survey-papers">1. Survey</a></td></tr> 
 <tr><td colspan="2"><a href="#models">2. Models</a></td></tr>
 <tr>
-
     <td>&emsp;<a href="#basic-models">2.1 Basic Models</a></td>
     <td>&ensp;<a href="#cnn-models">2.2 CNN-based Models</a></td>
 </tr>
@@ -80,7 +79,7 @@ Please follow [this link](./README_by_year.md) to view papers in chronological o
 
 4. **A Survey on Session-based Recommender System.** arxiv, 2021. [paper](https://arxiv.org/pdf/1902.04864.pdf)
 
-## [Models](#content) 
+## [Models](#content)
 
 ### [Basic Models](#basic-models)
 
@@ -102,9 +101,19 @@ Basic models including two-tower models, and classical machine learning approach
 
 ### [RNN-based Models](#rnn-models)
 
+1. **Learn from Past, Evolve for Future: Search-based Time-aware Recommendation with Sequential Behavior Data.** WWW 2022. [paper](https://arxiv.org/pdf/2202.03097.pdf)
 
+   *Jiarui Jin, Xianyu Chen, Weinan Zhang, Junjie Huang, Ziming Feng, Yong Yu*
 
+### [Transformer-based Models](#transformer-models)
 
+1. **RESETBERT4Rec: A Pre-training Model Integrating Time And User Historical Behavior for Sequential Recommendation.** SIGIR 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3477495.3532054)
+
+   *Qihang Zhao*
+
+   ​
+
+## [Tasks](#content)
 
 
 
@@ -165,6 +174,10 @@ Basic models including two-tower models, and classical machine learning approach
 
    *Pengjie Ren, Zhumin Chen, Jing Li, Zhaochun Ren, Jun Ma, Maarten de Rijk*
 
+7. **Modeling Personalized Item Frequency Information for Next-basket Recommendation.** SIGIR, 2020. [paper](https://arxiv.org/pdf/2006.00556.pdf)
+
+   *Haoji Hu, Xiangnan He, Jinyang Gao, Zhi-Li Zhang*
+
 ### [Temporal Recency](temporal-recency)
 
 The recency of tags has a positive effect on their recurrence probability. (To Replace)
@@ -185,7 +198,13 @@ The recency of tags has a positive effect on their recurrence probability. (To R
 
    *Benjamin Kille, Sahin Albayrak*
 
-   ​
+5. **Recency Aware Collaborative Filtering for Next Basket Recommendation.** UMAP, 2020. [paper](https://dl.acm.org/doi/abs/10.1145/3340631.3394850)
+
+   *Guglielmo Faggioli, Mirko Polato, Fabio Aioll
+
+6. **Time Lag Aware Sequential Recommendation.** CIKM 2022. [paper](https://arxiv.org/abs/2208.04760)
+
+   *Lihua Chen, Ning Yang, Philip S Yu*
 
 ### [Time-Point Sensitivity]()
 
