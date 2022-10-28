@@ -20,17 +20,17 @@ Please follow [this link](./README.md) to view papers by topics.
 
    *Jiarui Jin, Xianyu Chen, Weinan Zhang, Junjie Huang, Ziming Feng, Yong Yu*
 
-4. **Spatiotemporal-aware Session-based Recommendation with Graph Neural Networks.** CIKM 2022 
+4. **Spatiotemporal-aware Session-based Recommendation with Graph Neural Networks.** CIKM 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557458)
 
-   【使用图神经网络的时空感知基于会话的推荐】
+   *Yinfeng Li, Chen Gao, Xiaoyi Du, Huazhou Wei, Hengliang Luo, Depeng Jin, Yong Li*
 
-5. **Temporal Contrastive Pre-Training for Sequential Recommendation.** CIKM 2022 
+5. **Temporal Contrastive Pre-Training for Sequential Recommendation.** CIKM 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557468)
 
-   【时序推荐的时间对比预训练】
+   *Changxin Tian, Zihan Lin, Shuqing Bian, Jinpeng Wang, Wayne Xin Zhao*
 
-6. **Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping.** KDD 2022 
+6. **Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping.** KDD 2022. [paper](https://dl.acm.org/doi/10.1145/3534678.3539199)
 
-   【游戏化方法时空表征】
+   *Jongkyung Shin, Changhun Lee, Chiehyeon Lim, Yunmo Shin, Junseok Lim*
 
 7. **DeepVT: Deep View-Temporal Interaction Network for News Recommendatio.** CIKM 2022 
 

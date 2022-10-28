@@ -111,11 +111,43 @@ Basic models including two-tower models, and classical machine learning approach
 
    *Qihang Zhao*
 
-   ​
+### [GNN-based Models](#gnn-models)
+
+1. **Spatiotemporal-aware Session-based Recommendation with Graph Neural Networks.** CIKM 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557458)
+
+   *Yinfeng Li, Chen Gao, Xiaoyi Du, Huazhou Wei, Hengliang Luo, Depeng Jin, Yong Li*
 
 ## [Tasks](#content)
 
+### [Sequential/Session-based Recommendations](#SR-task)
 
+
+
+1. **Time Lag Aware Sequential Recommendation.** CIKM 2022. [paper](https://arxiv.org/abs/2208.04760)
+
+   *Lihua Chen, Ning Yang, Philip S Yu*
+
+2. **RESETBERT4Rec: A Pre-training Model Integrating Time And User Historical Behavior for Sequential Recommendation.** SIGIR 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3477495.3532054)
+
+   *Qihang Zhao*
+
+3. **Learn from Past, Evolve for Future: Search-based Time-aware Recommendation with Sequential Behavior Data.** WWW 2022. [paper](https://arxiv.org/pdf/2202.03097.pdf)
+
+   *Jiarui Jin, Xianyu Chen, Weinan Zhang, Junjie Huang, Ziming Feng, Yong Yu*
+
+4. **Temporal Contrastive Pre-Training for Sequential Recommendation.** CIKM 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557468)
+
+   *Changxin Tian, Zihan Lin, Shuqing Bian, Jinpeng Wang, Wayne Xin Zhao*
+
+### [POI Recommendations](#POI-task)
+
+1. **Spatiotemporal-aware Session-based Recommendation with Graph Neural Networks.** CIKM 2022. [paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557458)
+
+   *Yinfeng Li, Chen Gao, Xiaoyi Du, Huazhou Wei, Hengliang Luo, Depeng Jin, Yong Li*
+
+2. **Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping.** KDD 2022. [paper](https://dl.acm.org/doi/10.1145/3534678.3539199)
+
+   *Jongkyung Shin, Changhun Lee, Chiehyeon Lim, Yunmo Shin, Junseok Lim*
 
 ## [Temporal-Aspect](#temporal-aspects)
 
