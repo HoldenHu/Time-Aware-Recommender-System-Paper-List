@@ -156,6 +156,10 @@ Please follow [this link](./README.md) to view papers by topics.
 
 13. **Temporal Augmented Graph Neural Networks for Session-Based Recommendations.** SIGIR, 2021. [paper](https://dl.acm.org/doi/abs/10.1145/3404835.3463112) [code](https://github.com/CRIPAC-DIG/TAGNN)
 
+14. **Exploring Periodicity and Interactivity in Multi-Interest Framework for Sequential Recommendation**. IJCAI, 2021. [paper](https://www.ijcai.org/proceedings/2021/0197.pdf)
+
+
+
 ## [2020](#2020)
 
 1. **Make It a Chorus: Knowledge- and Time-aware Item Modeling for Sequential Recommendation.** SIGIR, 2020 
